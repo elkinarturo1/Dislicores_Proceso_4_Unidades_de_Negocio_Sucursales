@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Unidades_de_Negocio_Sucursales.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="strConexionODBC" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DSN=SIESAPOB;Uid=GT;Pwd=D1sl1c0r3s;</Value>
+    </Setting>
+    <Setting Name="strConexionSQL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server = 192.168.0.54;Database=Commercial_Effectiveness;User Id = sa; Password = D1sl1c0r3s; Integrated Security = False</Value>
+    </Setting>
+    <Setting Name="ConexionUNOEE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WSREAL</Value>
+    </Setting>
+    <Setting Name="CiaUNOEE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="UsuarioUNOEE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">servi.siesa</Value>
+    </Setting>
+    <Setting Name="ClaveUNOEE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Servi2021</Value>
+    </Setting>
+    <Setting Name="Unidades_de_Negocio_Sucursales_WSUNOEE_WSUNOEE" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.0.172:8051/WSUNOEE_ATLAS_CE/WSUNOEE.ASMX</Value>
+    </Setting>
+    <Setting Name="Unidades_de_Negocio_Sucursales_WSGT_wsGenerarPlano" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.0.54:8050/GTIntegration_Heros_CE/ServiciosWeb/wsGenerarPlano.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
